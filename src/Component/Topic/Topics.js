@@ -5,16 +5,16 @@ export default function Topics() {
 
   //Create Dynamic Components
   const dCompo1= "Create Dynnamic Components1"
-  const dCompo2 = 'Create Dynamic Components2'
+  const dCompo2 = "Create Dynamic Components2"
 
   const a = 10
   const b = 20
   const c = a + b
 
-//Create an Alert with Dynamic Components
-//<div className='topics2'>
-//<span className='topicText2'>{alert("hello")} </span>
-//</div>
+  //Create an Alert with Dynamic Components
+  //<div className='topics2'>
+  //<span className='topicText2'>{alert("hello")} </span>
+  //</div>
 
   return (
     <div>
