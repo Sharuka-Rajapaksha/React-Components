@@ -11,6 +11,11 @@ export default function Topics() {
   const b = 20
   const c = a + b
 
+//Create an Alert with Dynamic Components
+//<div className='topics2'>
+//<span className='topicText2'>{alert("hello")} </span>
+//</div>
+
   return (
     <div>
          <div className='topics'>
@@ -18,7 +23,12 @@ export default function Topics() {
          </div>
 
         <div className='topics2'>
-        <span className='topicText2'>The value of the Dynamic Component C is:{c} AND{alert("hello")} This is array: {[10,20,30,40]} </span>
+        <span className='topicText2'>The value of the Dynamic Component C is:{c} </span>
+        </div>
+
+
+        <div className='topics3'>
+        <span className='topicText3'> This is array: {[10,20,30,40]} </span>
         </div>
 
     </div>
