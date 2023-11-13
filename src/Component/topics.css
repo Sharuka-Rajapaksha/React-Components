@@ -5,39 +5,14 @@
     border-radius: 10px;
 }
 
-.topicText1{
+.topicText{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 52px;
     margin-left: 140px;
     color: white;
 }
 
-.topics2{
-    background-color: rgb(115, 255, 0);
-    width: 80%;
-    height: 100px;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-
-.topicText2{
+.paragraph{
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-left: 140px;
-    color: rgb(0, 0, 0);
-}
-
-.topics3{
-    background-color: rgb(255, 0, 0);
-    width: 80%;
-    height: 100px;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-
-.topicText3{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-left: 140px;
-    color: rgb(0, 0, 0);
 }
