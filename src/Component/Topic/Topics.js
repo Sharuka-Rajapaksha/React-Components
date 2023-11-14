@@ -4,8 +4,8 @@ import './topics.css'
 export default function Topics() {
 
   //Create Dynamic Components
-  const dCompo1= "Create Dynnamic Components1"
-  const dCompo2 = "Create Dynamic Components2"
+  const dCompo1= "Create user interfaces from components"
+  //const dCompo2 = "Create Dynamic Components2"
 
   const a = 10
   const b = 20
@@ -19,16 +19,19 @@ export default function Topics() {
   return (
     <div>
 
-    
-
       <h1 className='react'>React
-      <p>The library for web and native user interfaces</p>
+
+        <p>The library for web and native user interfaces</p>
+        <button className='button1'>Learn React</button>
+        <button className='button2'>API Reference</button>
+     
       </h1>
    
       
-         <div className='topics'>
-            <span className='topicText1'>This is the Topic & {dCompo1}{dCompo2}</span>
-         </div>
+      <div className='topics'>
+        <span className='topicText1'>{dCompo1}</span>
+        <p className='p1'>React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.</p>
+      </div>
 
         <div className='topics2'>
         <span className='topicText2'>The value of the Dynamic Component C is:{c} </span>
