@@ -18,6 +18,14 @@ export default function Topics() {
 
   return (
     <div>
+
+    
+
+      <h1 className='react'>React
+      <p>The library for web and native user interfaces</p>
+      </h1>
+   
+      
          <div className='topics'>
             <span className='topicText1'>This is the Topic & {dCompo1}{dCompo2}</span>
          </div>
