@@ -13,9 +13,17 @@ export default function Home() {
    
 
     <div>
-      <Props language = "React"/>
-      <Props language = "JavaScript"/>
-      <Props language = "CSS"/>
+      <Props language = "React"  skill="Excellent">
+          <span>This is Skill number 1: This is Children Prop</span>
+      </Props>
+
+      <Props language = "JavaScript" skill="Advanced">
+          <button>This is a button</button>
+      </Props>
+
+      <Props language = "CSS" skill="Intermediate">
+        <p>This is Third Children prop</p>
+      </Props>
     </div>
 
     </div>

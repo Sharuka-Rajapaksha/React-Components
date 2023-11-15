@@ -26,21 +26,19 @@ export default function Topics() {
         <button className='button2'>API Reference</button>
      
       </h1>
-   
-      
+ 
       <div className='topics'>
         <span className='topicText1'>{dCompo1}</span>
         <p className='p1'>React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.</p>
       </div>
 
-        <div className='topics2'>
+      <div className='topics2'>
         <span className='topicText2'>The value of the Dynamic Component C is:{c} </span>
-        </div>
+      </div>
 
-
-        <div className='topics3'>
+      <div className='topics3'>
         <span className='topicText3'> This is array: {[10,20,30,40]} </span>
-        </div>
+      </div>
 
     </div>
   )
