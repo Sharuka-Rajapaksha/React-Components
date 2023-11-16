@@ -45,6 +45,8 @@ const decrement = () => {
   */
   
   //useState Method:
+
+  //useState
 <>
     <span className='title'> My counter</span>
     <p className='SubTitle'>The count is {count}</p>
